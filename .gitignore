@@ -1,0 +1,19 @@
+## 构建产物
+bin/
+obj/
+dist/
+
+## 安装器资源（构建时由 build.ps1 重新生成）
+**/Resources/*.dll
+
+## 运行时数据
+*.user
+*.suo
+.vs/
+
+## IDE
+.idea/
+.vscode/
+
+## 计划文档（如需共享可去掉）
+.trae/
